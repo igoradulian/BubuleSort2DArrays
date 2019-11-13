@@ -33,16 +33,10 @@ public class BubleSort
                       
                         n++; 
                       
-                    //  System.out.print( arraySingle [i] );
-                       
+                 
               }
             
         }
-        
-        for(int i = 0; i < arraySingle.length; i++)
-        System.out.print( arraySingle [i] ); 
-            
-        System.out.println("\n");
         
         
     
@@ -69,9 +63,31 @@ public class BubleSort
                 }
             }
           
-       for(int i = 0; i < arraySingle.length; i++)   
-                  System.out.print(arraySingle[i]);
+                  
+       System.out.print("\n");
+       System.out.print("Sorted Two Dimensional Array: \n");
+       n = 0;
+
+       for(int i = 0; i < array.length; i++)
+         {
+         for(int j = 0; j < array[i].length; j++)
+            {
+                    
+                       
+                      array [i][j] =  arraySingle[n];
+                      
+                      
+                        n++; 
+                        
+                      System.out.print(array [i][j]);
+        
+                 
+              }
+            
+        }
+        
 
         
  }
  }
+
