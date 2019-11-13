@@ -1,3 +1,10 @@
+/*For two dimensional array working the same approach as for one dimensional. Fisrt it is 
+more easier to transform with two dimensional array to one dimensional array. Then array
+can be sorted the same way as one dimensional array. The only difference that 2D array looks like as matrix.
+*/
+
+
+
 public class BubleSort
 
 {
