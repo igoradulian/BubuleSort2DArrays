@@ -1,5 +1,5 @@
 # BubuleSort2DArrays
-Hello. Buble sorting is the following. For instance we have array of 5 elements { 2 , 4, 3 , 8 , 1}. 
+Buble sorting sorts arrays in multiple passes. For instance, we have array of 5 elements { 2 , 4, 3 , 8 , 1}. 
 The buble sort go over the array and swap elemnets by comparing each pair in the way 
 the larger value go to left and the smaller to right(ascending order). 
 So on the fisrt pass: 
